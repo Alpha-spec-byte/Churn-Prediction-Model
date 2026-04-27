@@ -15,7 +15,6 @@ data = {
     'last_login_days_ago': np.random.randint(0, 45, n_users),
     'support_tickets': np.random.randint(0, 4, n_users)
 }
-
 df = pd.DataFrame(data)
 
 # Logic for "has_churned" (Target Variable)
